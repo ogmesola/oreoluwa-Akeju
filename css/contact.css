@@ -1,0 +1,137 @@
+.contact-img{
+    align-items: center;
+}
+
+body{
+    margin: 0px;
+    background-color: #eff1fb;
+    overflow: ;
+  }
+  body{
+    margin: 0px;
+    background-color: #eff1fb;
+}
+.navbar ul{
+    padding: 0px;
+    margin: 0px;
+}
+.logo{
+        padding: 15px;
+        display: block;
+}
+.logo h1{
+    color: bisque;
+}
+.logo b{
+    color: orange;
+  }
+.navbar ul{
+    list-style-type: none;
+    background-color: #1a2860;
+    padding: 0PX;
+    margin: 0PX;
+    overflow: hidden;
+}
+.navbar a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(167, 167, 223);
+}
+.navbar li{
+    float: left;
+}
+  
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+button{
+  background-color: black;
+  color: antiquewhite;
+  height: 21%;
+  width: 29%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}

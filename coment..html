@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="coment..css">
+    <meta charset="UTF-8">
+    my best to provide you with quick and accurate responses. Just let me know your query, and I'll get right on it. <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Page</title>
+</head>
+<body>
+
+    <h1>Comment Section</h1>
+
+    <!-- Form for adding comments -->
+     
+    <form id="commentForm">
+        <div class="from"><label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        
+        <label for="comment">Comment:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br>
+        
+        <button type="submit">Add Comment</button>
+    </form>
+     </div>
+
+    <hr>
+
+    <!-- Display comments -->
+    <div id="comments">
+        <!-- Comments will be displayed here -->
+    </div>
+
+    <script>
+        const commentForm = document.getElementById('commentForm');
+        const commentsSection = document.getElementById('comments');
+
+        commentForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            // Get the input values
+            const name = document.getElementById('name').value;
+            const comment = document.getElementById('comment').value;
+
+            // Create a new comment element
+            const newComment = document.createElement('div');
+            newComment.innerHTML = `<strong>${name}</strong>: ${comment}`;
+
+            // Append the comment to the comments section
+            commentsSection.appendChild(newComment);
+
+            // Clear the form after submitting
+            commentForm.reset();
+        });
+    </script>
+
+
+<script src="comment.js"></script>
+</body>
+</html>

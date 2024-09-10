@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    background-color: #eff1fb;
+}
+
+.navbar ul{
+    padding: 0px;
+    margin: 0px;
+}
+.logo{
+        padding: 15px;
+        display: block;
+}
+.logo h1{
+    color: bisque;
+}
+.logo b{
+    color: orange;
+  }
+.navbar ul{
+    list-style-type: none;
+    background-color: #1a2860;
+    padding: 0PX;
+    margin: 0PX;
+    overflow: hidden;
+}
+.navbar a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}

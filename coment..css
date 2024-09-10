@@ -1,0 +1,14 @@
+form{
+    background-color: aqua;
+    text-align: center;
+    height: 24vh;
+    width: 40%;
+    margin: 80px;
+    padding-block: 10%;
+}
+
+button{
+    background-color: rgb(30, 190, 196);
+    height: 38PX;
+    width: 90PX;
+}
